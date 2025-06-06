@@ -1,0 +1,63 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly projectTry30, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class GymManagementSystem.DatabaseHelper: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Initialize(): PrivateScope, Public, Static, HideBySig
+    OpenConnection(): PrivateScope, Public, Static, HideBySig
+    CloseConnection(): PrivateScope, Public, Static, HideBySig
+    GetConnection(): PrivateScope, Public, Static, HideBySig
+    ExecuteQuery(String): PrivateScope, Public, Static, HideBySig
+    ExecuteNonQuery(String): PrivateScope, Public, Static, HideBySig
+    GetAllTrainers(): PrivateScope, Public, Static, HideBySig
+    GetAllCustomers(): PrivateScope, Public, Static, HideBySig
+    GetAllGymHalls(): PrivateScope, Public, Static, HideBySig
+    GetAllEquipment(): PrivateScope, Public, Static, HideBySig
+    GetAllExercisePlans(): PrivateScope, Public, Static, HideBySig
+Class GymManagementSystem.LoginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GymManagementSystem.AddEditTrainerForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.DataGridViewRow): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GymManagementSystem.TrainerForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GymManagementSystem.AddEditCustomerForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.DataGridViewRow): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GymManagementSystem.CustomerForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GymManagementSystem.AddEditGymHallForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.DataGridViewRow): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GymManagementSystem.GymHallForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GymManagementSystem.AddEditEquipmentForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.DataGridViewRow): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GymManagementSystem.EquipmentForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GymManagementSystem.AddEditExercisePlanForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.DataGridViewRow): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GymManagementSystem.ExercisePlanForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class GymManagementSystem.AdminForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

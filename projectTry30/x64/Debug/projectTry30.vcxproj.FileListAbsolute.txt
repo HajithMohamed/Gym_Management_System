@@ -1,0 +1,2 @@
+C:\Qt projects\projectTry30\projectTry30\projectTry30\x64\Debug\projectTry30.vcxproj.AssemblyReference.cache
+C:\Projects\Gym_Management_System\projectTry30\x64\Debug\projectTry30.vcxproj.AssemblyReference.cache
